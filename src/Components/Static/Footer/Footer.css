@@ -1,0 +1,14 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Orbitron', sans-serif; */
+
+.footer-section h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.footer-section p {
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-section {
+    background-color: rgba(35, 35, 35, 0.5);
+}

@@ -5,7 +5,7 @@ import Navbar from '../../Components/Static/Header/Navbar';
 
 const Main = () => {
     return (
-        <div className='main'>
+        <div className='main container mx-auto'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
