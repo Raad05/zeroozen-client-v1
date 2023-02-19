@@ -7,7 +7,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className='bg-slate-900 footer-section lg:rounded-3xl lg:mb-10'>
+        <div className='footer-section lg:rounded-3xl lg:mb-10'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-12'>
                 <div className='logo w-1/2 mx-auto'>
                     <img src={logo} alt="Zeroozen" />
