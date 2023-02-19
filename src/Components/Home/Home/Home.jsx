@@ -1,6 +1,7 @@
 import Faq from '../Faq/Faq';
 import Feature from '../Feature/Feature';
 import Product from '../Product/Product';
+import Team from '../Team/Team';
 import Welcome from '../Welcome/Welcome';
 import './Home.css';
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Welcome></Welcome>
             <Feature></Feature>
             <Product></Product>
+            <Team></Team>
             <div className='faq-section'>
                 <h3 className='text-center text-3xl pb-5 font-bold'>Frequently Asked Questions</h3>
                 <div className='grid grid-cols-2 gap-5 px-10 pt-10 pb-40'>
