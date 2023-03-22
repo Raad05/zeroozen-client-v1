@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navbar nav-section bg-base-100 py-10">
+        <div className="navbar nav-section bg-base-100 py-10 px-60">
             <div className="flex-1">
                 <Link to='/'><img className="btn btn-ghost w-auto border-none" src={logo} alt="Zeroozen" /></Link>
             </div>
