@@ -7,7 +7,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className='footer-section lg:rounded-3xl lg:mb-10 text-white'>
+        <div className='footer-section text-white'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-12'>
                 <div className='logo w-1/2 mx-auto'>
                     <img src={logo} alt="Zeroozen" />
@@ -28,8 +28,8 @@ const Footer = () => {
                     <p>Subscribe to get the latest updates.
                     </p>
                     <form className='relative'>
-                        <input type="text" placeholder="Email Address" className="input w-full max-w-xs bg-white my-5 rounded-md" />
-                        <button type='submit' className='absolute right-4 top-8'><FiSend size={30}></FiSend></button>
+                        <input type="text" placeholder="Email Address" className="input w-full max-w-xs bg-white my-5 rounded-md text-black" />
+                        <button type='submit' className='absolute right-4 top-8 text-gray-500'><FiSend size={30}></FiSend></button>
                     </form>
                 </div>
             </div>

@@ -1,7 +1,9 @@
+import Faq from '../FAQ/Faq';
 import Intro from '../Intro/Intro';
+import Partner from '../Partner/Partner';
 import Product from '../Product/Product';
+import Team from '../Team/Team';
 import './Home.css';
-import Team from './Team/Team';
 
 const Home = () => {
 
@@ -10,6 +12,8 @@ const Home = () => {
             <Intro></Intro>
             <Product></Product>
             <Team></Team>
+            <a href="/"><Partner></Partner></a>
+            <Faq></Faq>
         </div>
     );
 };
