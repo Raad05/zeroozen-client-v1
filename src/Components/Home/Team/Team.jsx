@@ -12,8 +12,8 @@ const Team = () => {
     ];
 
     return (
-        <div id='team-section' className='team mb-20'>
-            <h3 className='text-yellow-500 text-5xl text-center py-5'>Our Team</h3>
+        <div id='team-section' className='team mb-20' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <h3 className='text-yellow-500 text-5xl text-center py-5 font-bold'>Our Team</h3>
             <p className='text-white text-2xl text-center'>We started with one mission: To unlock freedom for EVs in Bangladesh.</p>
             <div className="container grid grid-cols-3 m-auto gap-y-5 my-20">
                 {
