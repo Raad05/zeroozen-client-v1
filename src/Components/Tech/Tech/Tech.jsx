@@ -3,6 +3,7 @@ import TechIntro from '../TechIntro/TechIntro';
 import Charging from '../Charging/Charging';
 import TechStack from '../TechStack/TechStack';
 import Way from '../ZeroozenWay/Way';
+import Operations from '../Operations/Operations';
 
 const Tech = () => {
     return (
@@ -11,6 +12,7 @@ const Tech = () => {
             <Charging></Charging>
             <Way></Way>
             <TechStack></TechStack>
+            <Operations></Operations>
         </div>
     );
 };
