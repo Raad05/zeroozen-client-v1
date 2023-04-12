@@ -1,0 +1,6 @@
+.tech-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), black), url('/src/assets/BGs/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Faq from '../FAQ/Faq';
 import Intro from '../Intro/Intro';
 import Partner from '../Partner/Partner';
@@ -12,7 +13,7 @@ const Home = () => {
             <Intro></Intro>
             <Product></Product>
             <Team></Team>
-            <a href="/"><Partner></Partner></a>
+            <Link to='/'><Partner></Partner></Link>
             <Faq></Faq>
         </div>
     );

@@ -10,12 +10,11 @@ const Navbar = () => {
                 <Link to='/'><img className="btn btn-ghost w-auto border-none" src={logo} alt="Zeroozen" /></Link>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-2 py-5 text-white">
-                    <a className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300' href="#intro-section">HOME</a>
-                    <a className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300' href="#product-section">PRODUCT</a>
-                    <a className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300' href="#team-section">TEAM</a>
-                    <a className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300' href="#partner-section">PARTNER</a>
-                    <a className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300' href="#faq-section">FAQ</a>
+                <ul className="menu menu-horizontal px-2 py-2 text-white">
+                    <Link to='/' className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300'>HOME</Link>
+                    <Link to='/tech' className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300'>TECH</Link>
+                    <a href='#team-section' className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300'>ABOUT</a>
+                    <a href='#faq-section' className='px-5 py-2 text-lg hover:text-yellow-500 ease-in-out duration-300'>FAQ</a>
                 </ul>
             </div>
         </div>

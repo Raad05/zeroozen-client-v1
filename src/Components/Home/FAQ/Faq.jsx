@@ -12,8 +12,8 @@ const Faq = () => {
             answer: 'No. We are an energy company. We partner with OEMs to integrate our battery packs with their vehicles to unlock rapid charging at our charge pump.'
         },
         {
-            question: 'You said rapid charge. How much time do you need to charge?',
-            answer: 'We unlock 30 minutes now using affordable readily available Li-ion cells. Soon going to unlock in 10 minutes.'
+            question: 'How much time do you need to charge?',
+            answer: 'We unlock 30 minutes now using affordable readily available Li-ion cells.'
         },
         {
             question: 'Does not rapid charging already exist?',
@@ -27,7 +27,7 @@ const Faq = () => {
             <div className="grid grid-cols-2">
                 {
                     qna.map(faq =>
-                        <div tabIndex={0} className="collapse collapse-plus bg-base-100">
+                        <div tabIndex={0} className="collapse collapse-plus px-5">
                             <div className="collapse-title text-xl text-white">
                                 {faq.question}
                             </div>
