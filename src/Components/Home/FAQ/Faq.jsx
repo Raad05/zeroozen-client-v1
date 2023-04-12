@@ -1,5 +1,4 @@
 import React from 'react';
-import './Faq.css';
 
 const Faq = () => {
     const qna = [
@@ -22,17 +21,17 @@ const Faq = () => {
     ];
 
     return (
-        <div id='faq-section' className='faq container m-auto my-20 py-10 px-60'>
-            <h3 className='text-black text-5xl text-center my-10 font-bold'>FAQs</h3>
-            <div className="grid grid-cols-2">
+        <div id='faq-section' className='faq container md:m-auto my-0 md:my-20 py-10 md:px-60'>
+            <h3 className='text-yellow-500 text-md md:text-5xl text-center my-10 font-bold'>FAQs</h3>
+            <div className="grid grid-cols md:grid-cols-2">
                 {
                     qna.map(faq =>
                         <div tabIndex={0} className="collapse collapse-plus px-5">
-                            <div className="collapse-title text-xl text-white">
+                            <div className="collapse-title text-md md:text-xl text-white">
                                 {faq.question}
                             </div>
                             <div className="collapse-content">
-                                <p className='text-white'>{faq.answer}</p>
+                                <p className='text-white text-sm md:text-lg'>{faq.answer}</p>
                             </div>
                         </div>)
                 }

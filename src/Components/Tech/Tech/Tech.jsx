@@ -9,8 +9,8 @@ const Tech = () => {
         <div className='tech'>
             <TechIntro></TechIntro>
             <Charging></Charging>
-            <TechStack></TechStack>
             <Way></Way>
+            <TechStack></TechStack>
         </div>
     );
 };
