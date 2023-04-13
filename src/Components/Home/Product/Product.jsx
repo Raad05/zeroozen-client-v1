@@ -25,7 +25,7 @@ const Product = () => {
                     <p className='text-white text-sm md:text-xl'>- 10x better thermal management.</p>
                 </div>
             </div>
-            <div className='flex justify-around items-center my-0 md:my-5'>
+            <div className='flex justify-around items-center my-0 md:my-5 mx-10'>
                 <h3 className='text-white text-lg md:text-3xl w-1/2 text-center font-bold' data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">Most Advanced Adaptive charger</h3>
                 <img src={charger} alt="charger" className='w-2/3 md:w-1/2' data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000" />
             </div>

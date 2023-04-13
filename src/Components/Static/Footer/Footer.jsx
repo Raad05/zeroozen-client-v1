@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className='newsletter w-1/2 mx-auto'>
                     <h3 className='text-3xl font-bold my-5'>Newsletter</h3>
-                    <p>Subscribe to get the latest updates.
+                    <p className='text-xl'>Subscribe to get the latest updates.
                     </p>
                     <form className='relative'>
                         <input type="text" placeholder="Email Address" className="input w-full max-w-xs bg-white my-5 rounded-md text-black" />
