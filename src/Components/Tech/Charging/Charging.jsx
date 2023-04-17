@@ -29,7 +29,7 @@ const Charging = () => {
                     </div>
                 </div>
             </div>
-            <p className='text-white text-lg md:text-3xl text-center mx-2 my-10 md:my-20' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">Our adaptive energy stack works together to manage turbulence within cells when energy flows.</p>
+            <p className='text-white text-lg md:text-3xl text-center mx-5 md:mx-2 my-10 md:my-20' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">Our adaptive energy stack works together to manage turbulence within cells when energy flows.</p>
         </div>
     );
 };
