@@ -7,9 +7,9 @@ import './Charging.css';
 const Charging = () => {
     return (
         <div className='charging md:flex md:justify-center md:items-center mb-20'>
-            <div className="normal-charging">
-                <img src={normalCharging} alt="Normal Charge" className='normal' data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" />
-                <div className='bullet-points flex justify-center' data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out" >
+            <div className="normal-charging" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">
+                <img src={normalCharging} alt="Normal Charge" className='normal' />
+                <div className='bullet-points flex justify-center' >
                     <ul>
                         <li className='text-white text-md md:text-xl list-disc'>Lower Temperature</li>
                         <li className='text-white text-md md:text-xl list-disc'>Less Turbulence</li>
@@ -17,9 +17,9 @@ const Charging = () => {
                     </ul>
                 </div>
             </div>
-            <div className="fast-charging">
-                <img src={fastCharging} alt="Fast Charge" className='fast' data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" />
-                <div className='bullet-points flex justify-center' data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div className="fast-charging" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">
+                <img src={fastCharging} alt="Fast Charge" className='fast' />
+                <div className='bullet-points flex justify-center'>
                     <ul>
                         <li className='text-white text-md md:text-xl list-disc'>Higher Temperature</li>
                         <li className='text-white text-md md:text-xl list-disc'>More Turbulence</li>

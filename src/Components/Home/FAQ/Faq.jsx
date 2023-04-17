@@ -4,19 +4,19 @@ const Faq = () => {
     const qna = [
         {
             question: 'Are you a battery company?',
-            answer: 'No, we are much more than that. We are an energy company that now simplifies energy flow between chargers & batteries.'
+            answer: 'No, we are much more than that. We are an energy company that now simplifies energy flow between charger & battery.'
         },
         {
             question: 'Are you a Vehicle manufacturer (OEM)?',
-            answer: 'No. We are an energy company. We partner with OEMs to integrate our battery packs with their vehicles to unlock rapid charging at our charge pump.'
+            answer: 'No, we are an energy company. We partner with OEMs to integrate our battery packs with their vehicles to unlock rapid charging at our charge pump.'
         },
         {
             question: 'How much time do you need to charge?',
             answer: 'We unlock 30 minutes now using affordable readily available Li-ion cells.'
         },
         {
-            question: 'Does not rapid charging already exist?',
-            answer: 'Yes and No. for about 10-12 years in the world. But yes it is never been scalable in Bangladesh we think. It was done using bulky & expensive tech like supercapacitors. We have made rapid charging affordable and scalable in desi energy train context.'
+            question: 'Doesn\'t rapid charging already exist?',
+            answer: 'Yes and No. For about 10-12 years in the world. But yes, it has never been scalable in Bangladesh. It was done using bulky & expensive tech like supercapacitors. We have made rapid charging affordable and scalable in Desi energy train context.'
         }
     ];
 

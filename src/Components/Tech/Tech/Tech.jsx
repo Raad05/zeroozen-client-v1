@@ -10,8 +10,8 @@ const Tech = () => {
         <div className='tech'>
             <TechIntro></TechIntro>
             <Charging></Charging>
-            <Way></Way>
             <TechStack></TechStack>
+            <Way></Way>
             <Operations></Operations>
         </div>
     );

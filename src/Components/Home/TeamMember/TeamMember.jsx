@@ -6,7 +6,7 @@ const TeamMember = ({ member }) => {
     const { name } = member;
 
     return (
-        <div className="team-member card w-60 md:w-96 bg-gray-900 m-auto rounded-lg hover:scale-105 duration-100 ease-in-out">
+        <div className="team-member card w-56 md:w-96 bg-gray-900 m-auto rounded-lg hover:scale-105 duration-100 ease-in-out">
             {/* <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="img" /></figure> */}
             <div className="card-body">
                 <h5 className="text-white text-center text-md md:text-xl font-bold">{name}</h5>

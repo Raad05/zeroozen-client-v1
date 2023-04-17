@@ -6,28 +6,21 @@ import charger from '../../../assets/images/Charger.png';
 const Product = () => {
     return (
         <div id='product-section' className='product mb-20 mx-5 md:mx-20'>
-            <h3 className='text-yellow-500 text-xl md:text-5xl text-center font-bold' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Meet</h3>
-            <div className='flex justify-around items-center my-0 md:my-5'>
-                <div className='details' data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">
-                    <h3 className='text-white text-md md:text-3xl font-bold my-5'>Small battery packs = Higher affordability</h3>
-                    <p className='text-white text-sm md:text-xl'>- 35% smaller batteries.</p>
-                    <p className='text-white text-sm md:text-xl'>- Increase affordability for consumers.</p>
-                    <p className='text-white text-sm md:text-xl'>- 30 min rapid charge.</p>
+            <h3 className='text-yellow-500 text-xl md:text-5xl text-center font-bold' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">Meet</h3>
+            <div className='md:flex justify-around items-center' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1000">
+                <div className='flex md:w-1/2 justify-center items-center'>
+                    <img src={fastCharge} alt="gif" className='w-1/2 md:w-1/2 mx-5' />
+                    <img src={product} alt="fast-charge" className='rounded-lg w-40 mx-5 md:w-1/3 ml-5 md:ml-0' />
                 </div>
-                <img src={fastCharge} alt="gif" className='w-1/2 md:w-1/3' data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000" />
-            </div>
-            <div className='flex justify-around items-center my-0 md:my-5'>
-                <img src={product} alt="fast-charge" className='rounded-lg w-40 md:w-1/4 ml-5 md:ml-0' data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1000" />
-                <div className='details ml-10 md:ml-0' data-aos="fade-left" data-aos-delay="1500" data-aos-duration="1000">
-                    <h3 className='text-white text-md md:text-3xl font-bold my-5'>Less charge time = High network profitability</h3>
-                    <p className='text-white text-sm md:text-xl'>- Fastest Active Balancing BMS.</p>
-                    <p className='text-white text-sm md:text-xl'>- 6x voltage sensing accuracy.</p>
-                    <p className='text-white text-sm md:text-xl'>- 10x better thermal management.</p>
+                <div className='details md:w-1/2 mx-20'>
+                    <p className='text-white text-md md:text-5xl my-5 text-center'>Any EV with our pack can fully charge in 30 min only with our superzen charger.</p>
                 </div>
             </div>
-            <div className='flex justify-around items-center my-0 md:my-5 mx-10'>
-                <h3 className='text-white text-lg md:text-3xl w-1/2 text-center font-bold' data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">Most Advanced Adaptive charger</h3>
-                <img src={charger} alt="charger" className='w-2/3 md:w-1/2' data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000" />
+            <div className='md:flex flex-row-reverse justify-between items-center mx-10' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1000">
+                <img src={charger} alt="charger" className='w-2/3 md:w-1/3 mx-auto' />
+                <div className='details md:w-1/2 md:mx-20'>
+                    <p className='text-white text-md md:text-5xl my-5 text-center md:text-left'>Most advanced adaptive charger.</p>
+                </div>
             </div>
         </div>
     );
