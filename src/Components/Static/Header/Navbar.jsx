@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-black sticky top-0 z-10">
             <div className="navbar-start">
-                <a href='/'><img className="btn w-52 border-none md:ml-10" src={logo} alt="Zeroozen" /></a>
+                <a href='/'><img className="w-28 md:w-56 border-none md:ml-10" src={logo} alt="Zeroozen" /></a>
             </div>
             <div className="navbar-center hidden md:flex md:ml-96">
                 <ul className="menu menu-horizontal px-1">
