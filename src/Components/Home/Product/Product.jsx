@@ -5,7 +5,7 @@ import charger from '../../../assets/images/Charger.png';
 
 const Product = () => {
     return (
-        <div id='product-section' className='product mb-20 mx-12 md:mx-20'>
+        <div id='product-section' className='product mb-20 mx-16 md:mx-20'>
             <h3 className='text-yellow-500 text-xl md:text-5xl text-center font-bold my-5 md:my-0' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">Meet</h3>
             <div className='md:flex justify-around items-center' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1000">
                 <div className='flex md:w-1/2 justify-center items-center'>
