@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  background-image: url('./assets/BGs/intro.png');
-  background-repeat: no-repeat;
-  background-size: contain;
 }

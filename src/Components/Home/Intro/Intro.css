@@ -1,0 +1,6 @@
+.intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), black), url('/src/assets/BGs/infinity-sign.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
